@@ -13,10 +13,13 @@
 
 ## Available Commands
 
-```
-- /add <NAME> <IP> <ROCNPORT> <RCONPASSWORD> => adds a server to the DB
-- /edit <NAME> OPTIONAL: <IP> <ROCNPORT> <RCONPASSWORD> => edits an existing server
-- /delete <NAME> => deletes a server from DB
-- /list => lists all servers, their name, ip, port and password
-- /rcon <NAME/ALL> <COMMAND> => sends a Rcon command to the selected/all server/s
-```
+- `/add <NAME> <IP> <RCONPORT> <RCONPASSWORD>`
+	- adds a server to the DB
+- `/edit <NAME> OPTIONAL: <IP> <RCONPORT> <RCONPASSWORD>`
+	- edits an existing server
+- `/delete <NAME>`
+	- deletes a server from DB
+- `/list`
+	- lists all servers, their name, ip, port and password
+- `/rcon <NAME/ALL> <COMMAND>`
+	- sends a Rcon command to the selected/all server/s
